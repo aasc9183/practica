@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="imagenes/FGS.png" type="image/svg+xml"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusion Gear Solid</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: serif;
+            font-size: 20px;
+            color: #c3d9a1;
+        }
+        body{
+            background-color: #123229;
+        }
+        .encabezado{
+            background-color: #156464;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+            padding: 7.5px 5%;
+        }
+        .encabezado .logo{
+            cursor: pointer;
+        }
+        .encabezado .logo img{
+            height: 40px;
+            width: auto;
+            transition: all 0.5s;
+        }
+        .encabezado .logo img::hover{
+            transform: scale(1.5);
+        }
+        .encabezado .links-navbar{
+            list-style: none;
+        }
+        .encabezado .links-navbar li{
+            display: inline-block;
+            padding: 0 10px;
+        }
+        .encabezado .links-navbar li::hover{
+            transform: scale(1.5);
+        }
+        .encabezado .links-navbar a{
+            font-size: 700;
+            color: white;
+        }
+        .encabezado .links-navbar li a::hover{
+            color: yellow;
+        }
+        .encabezado .boton button{
+            margin-left: 10px;
+            font-weight: 700;
+            color: white;
+            padding: 9px 25px;
+            background-color: #123229;
+            border-radius: none;
+            cursor: pointer;
+            transition: all 0.5s ease-in-out 0s;
+        }
+        .encabezado .boton button::hover{
+            background-color: white;
+            color: yellow;
+            transform: scale(1.5);
+        }
+        .encabezado a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="encabezado">
+        <div class="logo">
+            <a href="">
+            <img src="imagenes/Fusion Gear Solid.png" alt="Fusion Gear Solid">
+            </a>
+        </div>
+        <nav>
+            <ul class="links-navbar">
+                <li><a href="Hardware.html">Hardware</a></li>
+                <li><a href="Mantenimiento.html">Mantenimiento</a></li>
+                <li><a href="Licencias.html">Licencias</a></li>
+                <li><a href="Cuentas.html">Cuentas</a></li>
+                <li><a href="Tarjetas.html">Tarjetas</a></li>
+            </ul>
+        </nav>
+        <a href="" class="boton"><button>Inciar Sesión</button></a>
+    </header>
+          
+</body>
+</html>
